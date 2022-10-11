@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+/* Light theme */
+#myBody{
+    background-color:white;
+  }
+  #switchButton {
+    background-color: white;
+  }
+  #switchButton .gg-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#myBody{
+    background-color:black;
+  }
+  
+  .dark #switchButton {
+    background-color: black;
+  }
+  
+  .dark #switchButton .gg-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
